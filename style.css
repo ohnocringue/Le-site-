@@ -1,23 +1,31 @@
-body {
-     background-image: url("background.png") ;
-}
-h1,h2,h3,h4{
-    text-align: center;
-}
-h5{
-    font-family: cursive ;
-    color: white;
-    font-size: medium;
-}
-h4,h6 {
-    color: white;
-    font-size: medium;
-}
-a {
-    color: yellow;
-    text-decoration:none
-}
-span.evenement {
-    color: yellow;
-    font-weight : bold
-}
+.chapeau {
+    background-color: #090000; /* Couleur de fond du menu */
+    padding: 1%; /* Espacement interne */
+    width: 100%; /* Prendre toute la largeur de l'écran */
+    box-sizing: border-box; /* Inclure les bordures et padding dans la largeur */
+  }
+  
+  nav ul {
+    list-style-type: none; /* Enlever les puces */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Disposer les éléments en ligne */
+    justify-content: space-around; /* Répartir les éléments uniformément */
+    align-items: center; /* Centrer verticalement les éléments */
+    width: 100%; /* Prendre toute la largeur du conteneur */
+  }
+  
+  nav li {
+    margin: 0 10px; /* Optionnel : espacement entre les éléments */
+  }
+  
+  nav a {
+    text-decoration: none; /* Enlever le soulignement */
+    color: #f7f0f0; /* Couleur du texte */
+    font-size: 18px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+  }
+  
+  nav a:hover {
+    color: #007BFF; /* Changer la couleur au survol */
+  }
