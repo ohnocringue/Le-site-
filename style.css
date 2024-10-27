@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%; /* Assure que html et body prennent toute la hauteur */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Organise les éléments en colonne */
+    height: 100vh; /* Prend toute la hauteur de la fenêtre */
+}
+
+.header {
+    background-color: #ffffff; /* Couleur de fond du menu */
+    padding: 2.25%; /* Espacement interne */
+    width: 100%; /* Prendre toute la largeur de l'Ã©cran */
+}
+
+.menu nav ul {
+    list-style-type: none; /* Enlever les points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Disposer les Ã©lÃ©ments en ligne */
+    justify-content: space-around; /* RÃ©partir les Ã©lÃ©ments uniformÃ©ment */
+    align-items: center; /* Centrer verticalement les Ã©lÃ©ments */
+    width: 100%; /* Prendre toute la largeur du conteneur */
+}
+
+.menu a {
+    text-decoration: none; /* Enlever le soulignement */
+    color: #000000; /* Couleur du texte */
+    font-size: 25px; /* Taille du texte */
+    font-family: cursive ;
+    font-weight: bold; /* Texte en gras */
+}
+  
+.menu a:hover {
+    color: #9b898fbe; /* Changer la couleur au survol */
+    font-size: 24px; /* Taille du texte */
+}
+    
+.body {
+    flex: 1; /* Prend tout l'espace restant */
+    background-color: #000000;
+}
+
+.footer {
+    height: 10%; /* Si tu veux un footer, mets-le ici */
+    background-color: #3a3a3a8d;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif ;
+    text-align: left;
+    font-size: small;
+    padding: 5px ;
+}
+
+body {
+    list-style-type: none; /* Enlever les points */
+    background-color: #000000; /* Couleur de fond du menu */
+      }
+img {
+  width: 50%;
+  float: left;
+}
