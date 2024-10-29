@@ -1,179 +1,191 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+/* CSS du projet site web physique quantique */
 
-html, body {
-    height: 100%; /* Assure que html et body prennent toute la hauteur */
-}
+    /* CSS de la page d'acceuil */
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        height: 100%; /* Assure que html et body prennent toute la hauteur */
+    }
 
-.container {
-    display: flex;
-    flex-direction: column; /* Organise les éléments en colonne */
-    height: 100vh; /* Prend toute la hauteur de la fenêtre */
-}
+    .container {
+        display: flex;
+        flex-direction: column; /* Organise les éléments en colonne */
+        height: 100vh; /* Prend toute la hauteur de la fenêtre */
+    }
 
-.header {
-    background-color: #ffffff; /* Couleur de fond du menu */
-    padding: 2.25%; /* Espacement interne */
-    width: 100%; /* Prendre toute la largeur de l'Ã©cran */
-}
+    .header {
+        background-color: #ffffff; /* Couleur de fond du menu */
+        padding: 2.25%; /* Espacement interne */
+        width: 100%; /* Prendre toute la largeur de l'Ã©cran */
+    }
 
-.menu nav ul {
-    list-style-type: none; /* Enlever les points */
-    padding: 0;
-    margin: 0;
-    display: flex; /* Disposer les Ã©lÃ©ments en ligne */
-    justify-content: space-around; /* RÃ©partir les Ã©lÃ©ments uniformÃ©ment */
-    align-items: center; /* Centrer verticalement les Ã©lÃ©ments */
-    width: 100%; /* Prendre toute la largeur du conteneur */
-}
+    .menu nav ul {
+        list-style-type: none; /* Enlever les points */
+        padding: 0;
+        margin: 0;
+        display: flex; /* Disposer les Ã©lÃ©ments en ligne */
+        justify-content: space-around; /* RÃ©partir les Ã©lÃ©ments uniformÃ©ment */
+        align-items: center; /* Centrer verticalement les Ã©lÃ©ments */
+        width: 100%; /* Prendre toute la largeur du conteneur */
+    }
 
-.menu a {
-    text-decoration: none; /* Enlever le soulignement */
-    color: #000000; /* Couleur du texte */
-    font-size: 25px; /* Taille du texte */
-    font-family: cursive ;
-    font-weight: bold; /* Texte en gras */
-}
-  
-.menu a:hover {
-    color: #9b898fbe; /* Changer la couleur au survol */
-    font-size: 24px; /* Taille du texte */
-}
+    .menu a {
+        text-decoration: none; /* Enlever le soulignement */
+        color: #000000; /* Couleur du texte */
+        font-size: 25px; /* Taille du texte */
+        font-family: cursive ;
+        font-weight: bold; /* Texte en gras */
+    }
     
-.body {
-    flex: 1; /* Prend tout l'espace restant */
-    background-color: #000000;
-}
+    .menu a:hover {
+        color: #9b898fbe; /* Changer la couleur au survol */
+        font-size: 24px; /* Taille du texte */
+    }
+        
+    .body {
+        flex: 1; /* Prend tout l'espace restant */
+        background-color: #000000;
+    }
 
-.footer {
-    height: 10%; /* Si tu veux un footer, mets-le ici */
-    background-color: #3a3a3a8d;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif ;
-    text-align: left;
-    font-size: small;
-    padding: 20px ;
-}
+    .footer {
+        height: 10%; /* Si tu veux un footer, mets-le ici */
+        background-color: #3a3a3a8d;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif ;
+        text-align: left;
+        font-size: small;
+        padding: 20px ;
+    }
 
-body {
-    list-style-type: none; /* Enlever les points */
-    background-color: #000000; /* Couleur de fond du menu */
-      }
-img {
-  width: 50%;
-  float: left;
-  border-radius: 10px;
-}
-.image1 {
-    position: relative;
-}
-/* Style du texte superposé */
-.texte{
-    position: absolute;
-    top: 78%;
-    right: 50%;
-    background-color: rgb(255, 255, 255); 
-    padding: 10px;
-    border-radius: 5px;
-    font-family: cursive ;
-}
-.image3{
-
-    margin-top: 8%;
-    width: 75%;
-    margin-left: 5%;
-}
-.texte2{
-    position: absolute;
-    top: 45%;
-    left : 50%;
-    background-color: rgb(255, 255, 255); 
-    padding: 10px;
-    border-radius: 5px;
-    font-family: cursive ;
+    body {
+        list-style-type: none; /* Enlever les points */
+        background-color: #000000; /* Couleur de fond du menu */
+        }
+    img {
+    width: 50%;
     float: left;
-    margin-right: 5%;
-}
-.image4{
-    position: absolute;
-    width: 200%;
-    top: 115%;
-    
-}
-.texte3 {
-    position: absolute;
-    top: 151%;
-    left : 50%;
-    background-color: rgb(255, 255, 255); 
-    padding: 10px;
-    border-radius: 5px;
-    font-family: cursive ;
-    float: left;
-    margin-right: 5%;
-}
+    border-radius: 10px;
+    }
+    .image1 {
+        position: relative;
+    }
+    /* Style du texte superposé */
+    .texte{
+        position: absolute;
+        top: 78%;
+        right: 50%;
+        background-color: rgb(255, 255, 255); 
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ;
+    }
 
-.image5{
-    margin-top: 58%;
-    width: 60%;
-    margin-left: 5%;
-}
-.titre2{
-    position: absolute;
-    top: 30%;
-    background-color: rgb(255, 255, 255); 
-    border-radius: 5px;
-    font-family: cursive ;
-    margin-left: 5%;
-    margin-top: -5%;
-}
-.titre3{
-    font-size: larger;
-    font-weight: bolder;
-}
-.infosurimage{
-    position: absolute;
-    top: 95%;
-    right : 40%;
-    right: 55%;
-    background-color: rgb(0, 0, 0);
-    color: #ffffff; 
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 10px;
-    padding: 0.1%;
-    font-family: cursive ;
-    float: right;
-}
-.infosurimage5{
-    position: absolute;
-    top: 217%;
-    right: 60%;
-    background-color: rgb(0, 0, 0);
-    color: #ffffff; 
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 10px;
-    padding: 0.1%;
-    font-family: cursive ;
-    float: right;
+/* CSS de la page de la définition */
 
-}
-.footer2{
-    position: absolute;
-    top: 230%;
-    height: 10%; /* Si tu veux un footer, mets-le ici */
-    width: 100%;
-    background-color: #3a3a3a8d;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif ;
-    text-align: left;
-    font-size: small;
-    padding: 20px ;
-}
-.imageacceuil{
-    position: absolute;
-    width: 5%;
-}
+    .image3{
+
+        margin-top: 8%;
+        width: 75%;
+        margin-left: 5%;
+    }
+    .texte2{
+        position: absolute;
+        top: 45%;
+        left : 50%;
+        background-color: rgb(255, 255, 255); 
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ;
+        float: left;
+        margin-right: 5%;
+    }
+    .image4 {
+        float: left;
+        width: 100%;
+        position: relative; 
+        top: 10%; 
+    }
+    .image_4 {
+        width: 100%;
+    }
+
+    .texte3 {
+        position: absolute;
+        top: 151%;
+        left : 50%;
+        background-color: rgb(255, 255, 255); 
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ;
+        float: left;
+        margin-right: 5%;
+    }
+
+    .image5{
+        position: absolute;
+        top: 20%;
+        margin-top: 58%;
+        width: 60%;
+        margin-left: 5%;
+    }
+    .titre2{
+        position: absolute;
+        top: 30%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        border-radius: 5px;
+        font-family: cursive ;
+        margin-left: 5%;
+        margin-top: -5%;
+    }
+    .titre3{
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .infosurimage{
+        position: absolute;
+        top: 95%;
+        right : 40%;
+        right: 55%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff; 
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 0.1%;
+        font-family: cursive ;
+        float: right;
+    }
+    .infosurimage5{
+        position: absolute;
+        top: 217%;
+        right: 60%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff; 
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 10px;
+        padding: 0.1%;
+        font-family: cursive ;
+        float: right;
+
+    }
+    .footer2{
+        position: absolute;
+        top: 230%;
+        height: 10%; /* Si tu veux un footer, mets-le ici */
+        width: 100%;
+        background-color: #3a3a3a8d;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif ;
+        text-align: left;
+        font-size: small;
+        padding: 20px ;
+    }
+    .imageacceuil{
+        position: absolute;
+        width: 5%;
+    }
