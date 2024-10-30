@@ -83,7 +83,7 @@
         font-family: cursive ;
     }
 
-/* CSS de la page de la définition */
+/* CSS de toutes les pages  */
 
     .image3{
 
@@ -188,4 +188,143 @@
     .imageacceuil{
         position: absolute;
         width: 5%;
+    }
+    /*Css de la page 4 */
+
+
+    .texteindex4_1{
+        position: absolute;
+        top: 30%;
+        left : 50%;
+        background-color: rgb(255, 255, 255); 
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ;
+        float: left;
+        margin-right: 3%;
+    }
+    .titreindex4_1, .titreindex4_2{  
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+    .texteindex4_2{
+        width: 47%;
+        position: absolute;
+        top: 141%;
+        left : 50%;
+        background-color: rgb(255, 255, 255); 
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ;
+        float: right;
+        margin-right: 5%;
+    }
+
+    
+    /*Css du formulaire */
+
+
+    .question1{
+        position: absolute;
+        top: 30%;
+        margin-left: 5%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ; 
+        font-size: 150%;
+    }
+    .question2{
+        position: absolute;
+        top: 40%;
+        margin-left: 5%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ; 
+        font-size: 150%; 
+    }
+    .question3{
+        position: absolute;
+        top: 50%;
+        margin-left: 5%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ;
+        font-size: 150%;  
+    }
+    
+    .question4{
+        position: absolute;
+        top: 60%;
+        margin-left: 5%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ;
+        font-size: 150%; 
+    }
+    
+    .question5{
+        position: absolute;
+        top: 70%;
+        margin-left: 5%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ; 
+        font-size: 150%; 
+    }
+    .question6{
+        position: absolute;
+        top: 90%;
+        margin-left: 5%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ; 
+        font-size: 150%; 
+    }
+    .question7{
+        position: absolute;
+        top: 100%;
+        margin-left: 5%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ; 
+        font-size: 150%; 
+    }
+    .titre5{
+        position: absolute;
+        margin-left: 5%;
+        top: 80%;
+        background-color: rgb(0, 0, 0);
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 5px;
+        font-family: cursive ;
+        float: left;
+        margin-right: 5%;
+    }
+    .footer3{
+        position: absolute;
+        top: 120%;
+        height: 10%; /* Si tu veux un footer, mets-le ici */
+        width: 100%;
+        background-color: #3a3a3a8d;
+        color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif ;
+        text-align: left;
+        font-size: small;
+        padding: 20px ;
     }
